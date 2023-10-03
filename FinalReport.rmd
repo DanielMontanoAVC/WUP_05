@@ -48,11 +48,18 @@ barchartGC(~infected + treatment ,data=druggies, type="percent")
 
 ```
 
-
+The bar graph shows that among the people who got aids, the folks who had the treatment were significantly less likely to get aids. Those who got the placebo where much more likely to get aids. The chance of getting aids with the vaccine is almost 50% less likely to catch it, compared to those who had the placebo.
 
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+table1 <- xtabs( ~infected + treatment, data=druggies)
+rowPerc(table1)
+colPerc(table1)
+```
+The table shows that those with out the vaccine were about 3 times more likely to catch aids than those who did not have the vaccine.
 
 ## Inferential Results
 
