@@ -82,3 +82,5 @@ our new pvalue is 4.23e^-08, and our Odds ratios is 2.8. This means that you are
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+Is the aids treatment effective? We did a Chisq test which resulted in a p value less than 0.05. Thus we reject the null hypothesis. The vaccine is efffective in preventing Aids. If you take the vaccine you are 2.8 times more likely to not get aids, compared to someone who dose not have the vacccine.
